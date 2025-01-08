@@ -1,0 +1,22 @@
+
+Iterators:
+
+They are a collection of elements and has capability to iterate them.
+
+
+Strings:
+
+Each value has a index and we can access them via `[]` operator.
+we can use `\` to continue the sting in next line.
+We can use escape sequence in a string.
+Strings are immutable.
+
+
+Length Function:
+
+It tell us the length of a iterator.
+example: len( value )
+
+
+https://pymbook.readthedocs.io/en/latest/strings.html#different-methods-available-for-strings
+
