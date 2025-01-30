@@ -1,21 +1,18 @@
-# Write a program that take a number as input and print it's table.
+# Print Table of a Number
 
-num = int(input("enter a number to print its table: "))
-counter = 1
-while counter <= 10:
-    print(f"{num} * {counter} = {num * counter}")
-    counter +=1
+num = int(input("Enter a number: "))
+for i in range(1, 11):
+    print(f"{num} x {i} = {num * i}")
 
-    #output>>>
 
-# enter a number to print its table: 5
-# 5 * 1 = 5
-# 5 * 2 = 10
-# 5 * 3 = 15
-# 5 * 4 = 20
-# 5 * 5 = 25
-# 5 * 6 = 30
-# 5 * 7 = 35
-# 5 * 8 = 40
-# 5 * 9 = 45
-# 5 * 10 = 50
+# Enter a number: 5
+# 5 x 1 = 5
+# 5 x 2 = 10
+# 5 x 3 = 15
+# 5 x 4 = 20
+# 5 x 5 = 25
+# 5 x 6 = 30
+# 5 x 7 = 35
+# 5 x 8 = 40
+# 5 x 9 = 45
+# 5 x 10 = 50
