@@ -1,0 +1,30 @@
+Function Notes:
+
+Modular programming:
+
+Modular programming is programming concept. This concept allow us to divide a large solution into several small modules. Each module is developed independently and act is a solution of small problem.
+Need/Advantages of modular programming :
+
+    A module developed once and reuse several times in a program.
+    Due to readability, A problem will have less no of instruction.
+    A problem has less numbers of instruction has less number of errors.
+    program is easily maintainable .
+    program is easily extendable.
+
+In Python language to apply modular programming we use functions, Classes and Method.
+
+Function:-
+
+A function is an individual unit of small set of instruction to solve a specific task. Function may be inbuilt or user Define.
+
+User define function:- If a function not exist in language, it can be developed by the user. The development of a function has 3 steps.
+
+    Function declaration ( Prototype )
+    Function calling
+    Function definition
+
+Scope of Variables:
+If we define a variable in a function it stays in that function ( nobody knows it out of function )
+
+global -> we use this keyword to import a variable form the global scope
+
