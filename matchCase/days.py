@@ -17,5 +17,3 @@ match n:
         print("Sunday")
     case _:
         print("Invalid number")
-
-        
