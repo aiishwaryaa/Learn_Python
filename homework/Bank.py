@@ -23,14 +23,14 @@ class BankAccount:
             self.balance -= amount
             print(f"Withdrew Rs.{amount}. New balance is Rs.{self.balance}.")
         else:
-            print("Insufficient balance.")
+            print("Invalid amount entered.")
    
 
 account = BankAccount(1234567890033 , 30000 ,"25-03-2024","Aishwarya") 
 print(account.__dict__)   
 account.deposit(0) 
 account.deposit(1000)  
-account.widthdraw(500)  
+account.widthdraw(0)  
 
 # {'account_number': 1234567890033, 'balance': 30000, 'date_of_opening': '25-03-2024', 'customer_name': 'Aishwarya'}
 # Invalid deposit amount.
